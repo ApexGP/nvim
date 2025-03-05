@@ -5,38 +5,28 @@ return {
   event = "VimEnter",
   ---@type snacks.Config
   opts = {
+    animate = { enabled = true },
     bigfile = { enabled = true },
-    dashboard = {
-      enabled = true,
-      win = { style = "terminal" },
-    },
-    explorer = { enabled = true },
-    win = {
-      show = true,
-      fixbuf = true,
-      relative = "editor",
-      position = "float",
-      minimal = true,
-      wo = {
-        winhighlight = "Normal:SnacksNormal,NormalNC:SnacksNormalNC,WinBar:SnacksWinBar,WinBarNC:SnacksWinBarNC",
-      },
-      bo = {},
-      keys = {
-        q = "close",
-      },
-    },
+    dashboard = { enabled = true, example = "github" },
+    terminal = { enabled = true },
+    explorer = { enabled = true, show_hidden = true },
+    win = { enabled = true },
     indent = { enabled = true },
     input = { enabled = true },
     notifier = {
       enabled = true,
-      timeout = 3000,
+      timeout = 5000,
     },
     picker = { enabled = true },
     quickfile = { enabled = true },
     scope = { enabled = true },
+    toggle = { enabled = true },
     scroll = { enabled = true },
     statuscolumn = { enabled = true },
     words = { enabled = true },
+    laygit = { enabled = true },
+    git = { enabled = true },
+    gitbrowse = { enabled = true },
     styles = {
       notification = {
         -- wo = { wrap = true } -- Wrap notifications
