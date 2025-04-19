@@ -22,3 +22,19 @@ nvim_lsp.yamlls.setup({
 })
 
 vim.opt.termguicolors = true
+
+---- neovide settings ----
+
+-- display --
+vim.o.guifont = "JetBrainsMono NFM:h12"
+vim.g.neovide_opacity = 0.8
+vim.g.neovide_normal_opacity = 0.8
+vim.g.neovide_refresh_rate = 240
+
+-- animation --
+vim.g.neovide_position_animation_length = 0.15
+vim.g.neovide_scroll_animation_length = 0.3
+--vim.g.neovide_cursor_animation_length = 0.13
+vim.g.neovide_cursor_trail_size = 0.8
+vim.g.neovide_cursor_animate_in_insert_mode = true
+vim.g.neovide_cursor_smooth_blink = true
