@@ -114,7 +114,7 @@ return {
     scroll = { enabled = true },
     statuscolumn = { enabled = true },
     words = { enabled = true },
-    laygit = { enabled = true },
+    lazyygit = { enabled = true },
     git = { enabled = true },
     gitbrowse = { enabled = true },
     styles = {
